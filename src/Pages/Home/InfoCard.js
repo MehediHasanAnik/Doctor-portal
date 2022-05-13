@@ -7,9 +7,9 @@ import phone from "../../assets/icons/phone.svg"
 const InfoCard = () => {
     return (
         <div className='grid grid-cols-3 py-20 gap-5 mx-10'>
-            <Card bgClass="bg-primary" img={clock} />
-            <Card bgClass="bg-accent" img={marker} />
-            <Card bgClass="bg-secondary" img={phone} />
+            <Card bgclassName="bg-primary" img={clock} />
+            <Card bgclassName="bg-accent" img={marker} />
+            <Card bgclassName="bg-secondary" img={phone} />
         </div>
     );
 };
